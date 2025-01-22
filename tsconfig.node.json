@@ -7,7 +7,12 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.cjs"]
+  "include": ["vite.config.ts"]
 }
