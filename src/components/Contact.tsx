@@ -68,7 +68,7 @@ const Contact = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <motion.div variants={itemVariants} className="text-center mb-16">
-            <p className="text-primary font-mono mb-4">Entre em Contato</p>
+            <p className="text-primary font-mono mb-4">Fale Comigo</p>
             <h2 className="section-title">Contato</h2>
           </motion.div>
 

@@ -36,12 +36,12 @@ const Hero = () => {
         >
           <motion.div
             variants={itemVariants}
-            className="w-80 h-80 mb-8 rounded-full overflow-hidden border-4 border-primary/20"
+            className="w-60 h-60 sm:w-96 sm:h-96 mb-8 rounded-full overflow-hidden border-4 border-primary/20"
           >
             <img
               src="/images/profile.png"
               alt="Perfil"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover filter grayscale"
             />
           </motion.div>
 
