@@ -12,15 +12,15 @@ const Projects = () => {
       github: 'https://github.com/guilhermebarbosac-dev',
       demo: 'https://schia.com.br',
     },
-    // {
-    //   title: 'Projeto 2',
-    //   description:
-    //     'Aplicação full-stack com Next.js e backend em Node.js.',
-    //   image: 'https://via.placeholder.com/500x300',
-    //   tags: ['Next.js', 'Node.js', 'MongoDB'],
-    //   github: 'https://github.com',
-    //   demo: 'https://example.com',
-    // },
+    {
+      title: 'Site Igreja Batista Nova Vida',
+      description:
+        'Aplicação full-stack de um site completo com Gestão Operacional com React e Vite',
+      image: '/images/project2.png',
+      tags: ['React', 'Vite', 'Tailwind CSS', 'Supabase'],
+      github: 'https://github.com/guilhermebarbosac-dev/ibnv.git',
+      demo: '',
+    },
     // {
     //   title: 'Projeto 3',
     //   description:
