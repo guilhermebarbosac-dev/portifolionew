@@ -2,7 +2,6 @@ import { motion } from 'framer-motion'
 import { GithubLogo, LinkedinLogo, Heart } from 'phosphor-react'
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear()
 
   return (
     <footer className="py-8 bg-dark border-t border-primary/10">
@@ -26,7 +25,7 @@ const Footer = () => {
             className="flex gap-4"
           >
             <a
-              href="https://github.com/seuperfil"
+              href="https://github.com/guilhermebarbosac-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -34,7 +33,7 @@ const Footer = () => {
               <GithubLogo size={24} />
             </a>
             <a
-              href="https://linkedin.com/in/seuperfil"
+              href="https://www.linkedin.com/in/guilherme-barbosa-caetano-3a7085131"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-primary transition-colors"
@@ -48,7 +47,7 @@ const Footer = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <p className="text-gray-400"> {currentYear} Todos os direitos reservados</p>
+            <p className="text-gray-400"> 2025 Todos os direitos reservados</p>
           </motion.div>
         </div>
       </div>

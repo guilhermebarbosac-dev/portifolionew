@@ -9,7 +9,7 @@ const Projects = () => {
         'Uma aplicação web moderna construída com Next.js e TypeScript.',
       image: '/images/project1.png',
       tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Node.js'],
-      github: 'https://github.com',
+      github: 'https://github.com/guilhermebarbosac-dev',
       demo: 'https://schia.com.br',
     },
     // {
