@@ -7,10 +7,15 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 96px; /* altura do navbar */
   }
   
   body {
     @apply bg-dark text-light font-sans;
+  }
+
+  section {
+    @apply pt-24; /* adiciona padding-top em todas as seções */
   }
 }
 
