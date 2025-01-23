@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { List, X } from 'phosphor-react'
+import { useState, useEffect } from 'react'
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false)
@@ -190,7 +190,7 @@ const Navbar = () => {
                 href={`#${item.id}`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className={`block px-4 py-2 rounded-lg text-base font-medium z-10 relative flex items-center justify-center ${
+                className={`block px-4 py-2 rounded-lg text-base font-medium z-10 relative items-center justify-center ${
                   activeSection === item.id
                     ? 'text-dark'
                     : 'text-light hover:text-primary'

@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion'
-import { ArrowDown } from 'phosphor-react'
+import { FilePdf } from 'phosphor-react'
+import { useNavigate } from 'react-router-dom'
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -19,6 +22,10 @@ const Hero = () => {
       y: 0,
     },
   }
+
+  const handleCVClick = () => {
+    window.open('/cv', '_blank');
+  };
 
   return (
     <section
@@ -55,24 +62,24 @@ const Hero = () => {
               variants={itemVariants}
               className="flex gap-4 items-center"
             >
-              <motion.a
-                href="#projetos"
+              <motion.button
+                onClick={() => navigate("#projetos")}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
               >
                 Ver Projetos
-              </motion.a>
-              <motion.a
-                href="/cv.pdf"
-                download
+                {/* <ArrowDown weight="bold" /> */}
+              </motion.button>
+              <motion.button
+                onClick={handleCVClick}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 text-light hover:text-primary transition-colors"
+                className="px-8 py-3 bg-white/10 text-white rounded-full hover:bg-white/20 transition flex items-center gap-2"
               >
-                <ArrowDown size={20} />
                 Download CV
-              </motion.a>
+                <FilePdf weight="bold" />
+              </motion.button>
             </motion.div>
           </motion.div>
 
