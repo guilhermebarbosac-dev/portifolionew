@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion'
 import { FilePdf } from 'phosphor-react'
-import { useNavigate } from 'react-router-dom'
 
 const Hero = () => {
-  const navigate = useNavigate();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -63,7 +61,10 @@ const Hero = () => {
               className="flex gap-4 items-center"
             >
               <motion.button
-                onClick={() => navigate("#projetos")}
+                onClick={() => {
+                  const projetosSection = document.getElementById('projetos');
+                  projetosSection?.scrollIntoView({ behavior: 'smooth' });
+                }}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="btn-primary"
