@@ -110,7 +110,7 @@ const CV = () => {
                   <p className="text-gray-700"> (34) 99883-3438</p>
                   <p className="text-gray-700">guilhermebarbosa19@gmail.com</p>
                   <p className="text-gray-700">Conceição das Alagoas</p>
-                  <p className="text-gray-700">https://acesse.one/yJGAS</p>
+                  <p className="text-gray-700">https://encurtador.com.br/wM0rx</p>
                 </div>
               </section>
 
