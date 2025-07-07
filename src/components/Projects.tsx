@@ -21,15 +21,24 @@ const Projects = () => {
       github: 'https://github.com/guilhermebarbosac-dev/ibnv.git',
       demo: '',
     },
-    // {
-    //   title: 'Projeto 3',
-    //   description:
-    //     'Plataforma e-commerce com design responsivo e mobile-first.',
-    //   image: 'https://via.placeholder.com/500x300',
-    //   tags: ['React', 'Redux', 'Node.js'],
-    //   github: 'https://github.com',
-    //   demo: 'https://example.com',
-    // },
+    {
+      title: 'Expert Notes',
+      description:
+        'Plataforma de anotações com design responsivo e mobile-first.',
+      image: '/images/project3.png',
+      tags: ['React', 'Redux', 'Node.js'],
+      github: 'https://github.com/gojeta1/notes',
+      demo: 'https://notes-omega-hazel.vercel.app/',
+    },
+    {
+      title: 'BarberShop',
+      description:
+        'Plataforma de agendamento de serviços de barbearia com design responsivo e mobile-first.',
+      image: '/images/project4.png',
+      tags: ['React', 'Redux', 'Node.js', 'Tailwind CSS'],
+      github: 'https://github.com/gojeta1/barbershop',
+      demo: 'https://barbershop-jade.vercel.app/',
+    },
   ]
 
   const containerVariants = {
