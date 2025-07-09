@@ -173,7 +173,7 @@ const CV = () => {
                     <div className="absolute w-3 h-3 bg-gray-600 rounded-full -left-[7px] top-0"></div>
                     <h3 className="text-lg font-semibold text-gray-900">Analista de QA</h3>
                     <p className="text-gray-600 font-medium">Easyjur Software Jurídico</p>
-                    <p className="text-sm text-gray-600 mb-2">06/2023 - 06/2024</p>
+                    <p className="text-sm text-gray-600 mb-2">06/2023 - 06/2025</p>
                     <ul className="list-disc list-inside text-gray-700 space-y-2">
                       <li>Realização de testes automatizados e manuais do produto de gestão jurídica</li>
                       <li>Análise de BUGS para abertura e gestão de qualidade das atividades dos desenvolvedores utilizando a ferramenta JIRA</li>
