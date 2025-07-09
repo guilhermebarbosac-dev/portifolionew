@@ -208,7 +208,7 @@ const CV = () => {
                   <div className="absolute w-3 h-3 bg-gray-600 rounded-full -left-[7px] top-0"></div>
                   <h3 className="text-lg font-semibold text-gray-900">Graduação em Sistemas de Informações</h3>
                   <p className="text-gray-600 font-medium">ESTÁCIO</p>
-                  <p className="text-sm text-gray-600">12/2024</p>
+                  <p className="text-sm text-gray-600">01/2025</p>
                 </div>
               </section>
 
