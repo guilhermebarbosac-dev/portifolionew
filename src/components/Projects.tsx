@@ -39,6 +39,16 @@ const Projects = () => {
       github: 'https://github.com/gojeta1/barbershop',
       demo: 'https://barbershop-jade.vercel.app/',
     },
+    {
+      title: 'QRGen Brasil',
+      description:
+        'Gerador de QR Code personalizado gratuito com logo, cores customizadas e alta qualidade. O melhor gerador brasileiro online sem limites!',
+      image: '/images/project5.png',
+      tags: ['React', 'TypeScript', 'Tailwind CSS', 'QR Code API'],
+      github: 'https://github.com/guilhermebarbosac-dev/qrgencustom',
+      demo: 'https://qrgencustom.com.br',
+    },
+    
   ]
 
   const containerVariants = {
